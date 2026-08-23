@@ -1,9 +1,16 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A0A2E,45:5B2C83,75:F28C28,100:FFB347&height=180&section=header&text=Enterprise%20osTicket%20Service%20Desk%20Lab&fontSize=36&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=fadeIn" width="100%">
-</p>
 
-# Enterprise-osTicket-Service-Desk-Lab
+# Enterprise osTicket Service Desk Lab
 
-### Overview
+## System Architecture
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/801fe86a-d80d-4883-9323-e27a0fa7d048" />
+
+* osTicket service desk architecture showing Windows Server, IIS, PHP, MySQL, client access, and support workflows.*
+
+---
+
+## Overview
 This project simulates a real-world enterprise help desk environment using osTicket. The lab focuses on ticket management, troubleshooting workflows, SLA administration, escalation procedures, and end-user support operations commonly used in enterprise IT environments.
 
 The environment was configured to simulate realistic help desk operations where users submit tickets for password resets, printer failures, shared drive outages, and business-critical incidents.

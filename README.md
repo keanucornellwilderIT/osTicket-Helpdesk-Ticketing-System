@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# osTicket Help Desk Ticketing System Scenarios
+# Enterprise-osTicket-Service-Desk-Lab
 
 ### Overview
 This project simulates a real-world enterprise help desk environment using osTicket. The lab focuses on ticket management, troubleshooting workflows, SLA administration, escalation procedures, and end-user support operations commonly used in enterprise IT environments.

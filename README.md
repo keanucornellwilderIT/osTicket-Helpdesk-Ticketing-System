@@ -6,7 +6,7 @@
 
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/801fe86a-d80d-4883-9323-e27a0fa7d048" />
 
-* osTicket service desk architecture showing Windows Server, IIS, PHP, MySQL, client access, and support workflows.*
+*Figure 1. osTicket service desk architecture showing Windows Server, IIS, PHP, MySQL, client access, and support workflows.*
 
 ---
 

@@ -303,6 +303,16 @@ Critical outage required escalation beyond frontline support capabilities.
 Issue was escalated appropriately and resolved successfully.
 
 ---
+## Security & Access Controls
+
+| Control | Purpose |
+|---|---|
+| Login Lockout Policy | Limits repeated failed login attempts |
+| Role-Based Agent Access | Restricts agents based on department and assigned permissions |
+| Departmental Ticket Routing | Routes support requests to the appropriate support team |
+| SLA Policies | Establishes response expectations based on ticket severity |
+| Administrative Monitoring | Allows administrators to review ticket activity and system events |
+
 ## Lessons Learned
 This project strengthened my understanding of enterprise help desk operations, ticket lifecycle management, SLA administration, escalation procedures, and troubleshooting methodology.
 
@@ -310,11 +320,4 @@ Through realistic support scenarios, I gained hands-on experience documenting te
 
 The project also improved my understanding of role-based access control, departmental ticket routing, and enterprise support workflows commonly used in IT support environments.
 
-## Future Improvements
-- Configure email-to-ticket integration
-- Implement automated escalation workflows
-- Add knowledge base documentation
-- Configure Active Directory integration
-- Implement advanced reporting dashboards
-- Configure ticket auto-assignment rules
-- Integrate monitoring and alerting systems
+---

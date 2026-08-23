@@ -8,7 +8,6 @@ This project simulates a real-world enterprise help desk environment using osTic
 
 The environment was configured to simulate realistic help desk operations where users submit tickets for password resets, printer failures, shared drive outages, and business-critical incidents.
 
-### Business Impact
 This project demonstrates how enterprise IT teams use help desk ticketing systems to manage support requests, prioritize critical issues, document troubleshooting steps, and reduce downtime for employees and business operations.
 
 ### Technologies Used
@@ -18,15 +17,6 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 - PHP
 - Windows Server 2022
 - Windows 10
-
-### Key Help Desk Skills Demonstrated
-- Ticket Lifecycle Management
-- SLA Administration
-- Password Reset Support
-- Printer & Network Troubleshooting
-- Ticket Documentation
-- End-User Support
-
 
 ### Environment Setup
 - Windows Server VM
@@ -40,9 +30,6 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 - Support
 - SysAdmins
 - Network Operations
-
-### Teams
-- Online Banking
 
 ### Agents
 | Agent | Department | Access |
@@ -83,7 +70,7 @@ Configured SLA response policies and realistic help topics for ticket categoriza
 
 ---
 
-# Help Desk Scenarios
+## Support Scenarios
 
 ## Scenario 1 - HR Payroll Account Lockout
 ### Assigned Agent

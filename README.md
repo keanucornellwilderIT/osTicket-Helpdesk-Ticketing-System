@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A0A2E,45:5B2C83,75:F28C28,100:FFB347&height=180&section=header&text=Enterprise%20osTicket%20Service%20Desk%20Lab&fontSize=36&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=fadeIn" width="100%">
 </p>
 
 # Enterprise-osTicket-Service-Desk-Lab
@@ -9,6 +9,8 @@ This project simulates a real-world enterprise help desk environment using osTic
 The environment was configured to simulate realistic help desk operations where users submit tickets for password resets, printer failures, shared drive outages, and business-critical incidents.
 
 This project demonstrates how enterprise IT teams use help desk ticketing systems to manage support requests, prioritize critical issues, document troubleshooting steps, and reduce downtime for employees and business operations.
+
+## Lab Environment
 
 ### Technologies Used
 - osTicket
@@ -22,23 +24,29 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 - Windows Server VM
 - Windows Client VM
 - IIS Web Server
-- MySQL Database Server
+- MySQL Database
 - PHP Configuration
 - osTicket Deployment
 
+---
+
+## Service Desk Configuration
+
 ### Departments
-- Support
+- Helpdesk
 - SysAdmins
 - Network Operations
 
 ### Agents
+
 | Agent | Department | Access |
 |---|---|---|
-| John Doe | SysAdmins | Full Access |
 | Keanu Wilder | Helpdesk | Helpdesk Access |
+| John Doe | SysAdmins | Full Access |
 | Olivia Martinez | Network Operations | Limited Access |
 
-### Users
+### End Users
+
 | User | Department |
 |---|---|
 | Sarah Johnson | HR |
@@ -48,25 +56,32 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 | Ken | General User |
 
 ### SLA Policies
-| SLA | Grace Period | Schedule |
-|---|---|---|
+
+| SLA | Response Window | Schedule |
+|---|---:|---|
 | Sev-A | 1 Hour | 24/7 |
 | Sev-B | 4 Hours | 24/7 |
 | Sev-C | 8 Hours | Business Hours |
 
-# Project Configuration Steps
+---
 
-### Step 1 - Install IIS, PHP, and MySQL
-Installed and configured the web server, PHP environment, and MySQL database required for osTicket deployment.
+# Project Configuration
 
-### Step 2 - Deploy osTicket
-Configured osTicket and verified successful deployment through the Support Center and Admin Panel.
+### Step 1: Web Server & Database Setup
 
-### Step 3 - Configure Roles, Departments, and Teams
-Configured departments, teams, and role-based permissions to simulate enterprise help desk hierarchy and escalation workflows.
+Installed and configured **IIS, PHP, and MySQL** to provide the web and database services required for osTicket.
 
-### Step 4 - Configure SLA Policies and Help Topics
-Configured SLA response policies and realistic help topics for ticket categorization and escalation procedures.
+### Step 2: osTicket Deployment
+
+Deployed osTicket and verified successful access through the **Support Center** and **Admin Panel**.
+
+### Step 3: Service Desk Structure
+
+Configured **agents, departments, teams, and role-based permissions** to simulate an enterprise support hierarchy.
+
+### Step 4: SLA & Ticket Routing
+
+Configured **SLA policies and Help Topics** to categorize tickets, establish response expectations, and route support requests appropriately.
 
 ---
 
